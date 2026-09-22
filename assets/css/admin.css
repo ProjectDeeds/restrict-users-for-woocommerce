@@ -1,0 +1,166 @@
+.wcru-wrap {
+	max-width: 1080px;
+	margin-top: 28px;
+	color: #172033;
+}
+
+.wcru-hero {
+	background: linear-gradient(120deg, #0d59f2, #1746bb);
+	border-radius: 12px;
+	box-sizing: border-box;
+	color: #fff;
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	padding: 26px 30px;
+	margin: 20px 0;
+	box-shadow: 0 8px 20px rgba(13, 89, 242, .18);
+}
+
+.wcru-hero .dashicons {
+	font-size: 38px;
+	width: 38px;
+	height: 38px;
+}
+
+.wcru-hero h1 {
+	color: #fff;
+	margin: 0;
+	font-size: 26px;
+}
+
+.wcru-hero p {
+	margin: 5px 0 0;
+	opacity: .9;
+}
+
+.wcru-card {
+	background: #fff;
+	border: 1px solid #e2e8f5;
+	border-radius: 10px;
+	padding: 25px;
+	margin: 20px 0;
+	box-shadow: 0 3px 10px rgba(31, 52, 89, .05);
+}
+
+.wcru-card h2 {
+	margin-top: 0;
+	color: #0d59f2;
+}
+
+.wcru-card label:not(.wcru-switch) {
+	display: block;
+	font-weight: 600;
+	margin: 18px 0 7px;
+}
+
+.wcru-card textarea {
+	border-color: #bcc9e0;
+	border-radius: 5px;
+}
+
+.wcru-switch-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wcru-switch-row h2 {
+	margin-bottom: 7px;
+}
+
+.wcru-switch-row p {
+	margin: 0;
+	color: #63708a;
+}
+
+.wcru-switch {
+	position: relative;
+	width: 58px;
+	height: 31px;
+	flex: 0 0 auto;
+}
+
+.wcru-switch input[type="checkbox"] {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.wcru-slider {
+	position: absolute;
+	inset: 0;
+	background: #d62f3c;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.wcru-slider:before {
+	content: '';
+	position: absolute;
+	height: 23px;
+	width: 23px;
+	left: 4px;
+	bottom: 4px;
+	background: #fff;
+	border-radius: 50%;
+	transition: .2s;
+}
+
+.wcru-switch input:checked+.wcru-slider {
+	background: #1caa5b;
+}
+
+.wcru-switch input:checked+.wcru-slider:before {
+	transform: translateX(27px);
+}
+
+.wcru-wrap .button-primary {
+	background: #0d59f2;
+	border-color: #0d59f2;
+	padding: 3px 18px;
+}
+
+.wcru-entry-controls {
+	display: flex;
+	gap: 10px;
+	max-width: 680px;
+}
+
+.wcru-entry-controls input {
+	flex: 1;
+	min-width: 0;
+	border: 1px solid #bcc9e0;
+	border-radius: 5px;
+	padding: 8px 10px;
+}
+
+.wcru-error {
+	color: #a81929;
+}
+
+.wcru-table-wrap {
+	overflow-x: auto;
+	margin-top: 22px;
+}
+
+.wcru-table-wrap th {
+	color: #36415a;
+}
+
+.wcru-remove {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	text-decoration: none;
+}
+
+.wcru-remove svg {
+	display: block;
+}
+
+.wcru-remove:hover svg {
+	stroke: #a81929;
+}

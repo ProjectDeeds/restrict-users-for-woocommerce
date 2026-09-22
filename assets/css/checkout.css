@@ -1,0 +1,7 @@
+.woocommerce form.checkout {
+	display: none !important;
+}
+
+.wcru-checkout-notice {
+	margin-bottom: 2em;
+}

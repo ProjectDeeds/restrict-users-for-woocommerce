@@ -1,0 +1,20 @@
+# Local editor and operating-system files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local secrets, logs, and generated archives.
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+
+# Local dependency installations.
+node_modules/
+vendor/
