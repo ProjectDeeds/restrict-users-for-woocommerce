@@ -4,9 +4,9 @@ Contributors: Ben Dishler, CBT Hospitality Supplies
 Author URI: https://bendishler.com
 Tags: woocommerce, checkout, customer restrictions
 Requires at least: 6.5
-Tested up to: 7.1
+Tested up to: 7.1.2
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Text Domain: restrict-users-for-woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -24,6 +24,9 @@ Administrators can enable checkout restrictions, enter one or more WordPress use
 3. Open WooCommerce > Restrict Users to configure it.
 
 == Changelog ==
+
+= 1.0.1 =
+* Tested working up to 7.1.2
 
 = 1.0.0 =
 * Initial release.

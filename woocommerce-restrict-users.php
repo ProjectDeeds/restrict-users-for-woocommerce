@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Restrict Users for WooCommerce
  * Description: Restrict selected WooCommerce customers from completing checkout while allowing normal browsing and cart use.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Author: Ben Dishler, CBT Hospitality Supplies
