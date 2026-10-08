@@ -1,4 +1,6 @@
 # Restrict Users for WooCommerce
+Version: 1.0.2  
+Tested up to: WordPress 7.1.3
 
 A WordPress plugin that restricts selected WooCommerce customers from completing checkout while allowing browsing and cart use.
 
